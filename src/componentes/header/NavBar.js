@@ -2,6 +2,7 @@ import React from 'react'
 import {Navbar, Nav, Container} from 'react-bootstrap';
 import './navBar.css'
 import carrito from '../../assets/img/carrito.jpg';
+import { CartWidget } from '../carrito/CartWidget';
 
 export const NavBar = () => {
     return (
@@ -19,8 +20,10 @@ export const NavBar = () => {
                             <Nav.Link   href="#link">Envios</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
-                </Container>
+                </Container >
+                <CartWidget contado={4}/>
             </Navbar>
+            
         </div>
     )
 }
