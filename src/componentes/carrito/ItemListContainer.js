@@ -2,6 +2,12 @@ import React from 'react'
 import {Card, Button} from 'react-bootstrap'
 import './itemListContainter.css'
 import etermax from '../../assets/img/etermax.jpg';
+import ItemCount from '../contador/ItemCount';
+
+const handleClick = (total) => {
+    alert(`La cantidad agregada es ${total}`)
+    }
+
 
 export const ItemListContainer = () => {
     return (
@@ -16,7 +22,10 @@ export const ItemListContainer = () => {
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
+            <ItemCount stock={8} initial={1} onAdd={handleClick} />
             </Card>
+            
+            
         </div>
     )
 }
