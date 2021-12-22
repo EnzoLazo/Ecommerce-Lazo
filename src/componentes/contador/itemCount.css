@@ -1,4 +1,6 @@
-#tamaño {
-    width: 30px;
-    height: 15px;
+.tamaño {
+    margin: -0px -70px; 
+    position:relative;
+
+    left:50%;
 }

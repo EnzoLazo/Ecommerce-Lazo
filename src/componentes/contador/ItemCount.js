@@ -21,7 +21,7 @@ export default function ItemCount({ stock, initial, onAdd}) {
                 <FormControl className="text-center" aria-label="Lorem ipsum" value={contador} readOnly />
                 <Button variant="outline-primary" onClick={aumentarClick}>+</Button>
             </InputGroup>
-            <Button id="tamaño "variant="primary" onClick={ () => onAdd(contador)}>Agregar al carrito</Button>
+            <Button className="tamaño "variant="primary" onClick={ () => onAdd(contador)}>Agregar al carrito</Button>
         </div >
     )
 }

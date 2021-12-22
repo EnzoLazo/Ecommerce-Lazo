@@ -1,12 +1,12 @@
 import './App.css';
-import ItemListContainer from './componentes/carrito/ItemListContainer';
+import ItemDetailContainer from './componentes/carrito/ItemDetailContainer';
 import Header from './componentes/header/Header';
 
 function App() {
   return (
     <>
     <Header/>
-    <ItemListContainer/>
+    <ItemDetailContainer/>
     </>
       
   );
