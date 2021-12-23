@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
 import { getFetch } from '../logicaCards/GetFetch';
 import '../logicaCards/itemList.css'
-import ItemDetail from '../logicaCards/ItemDetail';
+import Item from '../logicaCards/Item';
 
 
 const ItemList = () => {
@@ -23,7 +23,7 @@ const ItemList = () => {
             <h2> Nuestros Productos </h2>
             <div className='Flexbox'>
             { loading ? <h1>Cargando...</h1> :         
-                    product.map((prod, index) => <ItemDetail key={index} imagen={prod.imagen} nombre={prod.nombre} descripcion={prod.descripcion} precio={prod.precio}/>
+                    product.map((prod, index) => <Item key={index} imagen={prod.imagen} nombre={prod.nombre} descripcion={prod.descripcion} precio={prod.precio}/>
             
             )
             }
