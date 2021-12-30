@@ -8,13 +8,14 @@ const handleClick = (total) => {
 
 
 const ItemDetail = ({ prod }) => {
+  console.log(prod);
   return (
     <div>
       <div>
         <h2>{prod.nombre}</h2>
-        <p>Precio: $ {prod.price}</p>
+        <p>Precio: $ {prod.precio}</p>
       </div>
-      <img src={prod.img} alt={prod.nombre}/>
+      <img src={prod.imagen} alt={prod.nombre}/>
       <ItemCount className='centrar' stock={8} initial={1} onAdd={handleClick} />
     </div>
   );

@@ -17,15 +17,10 @@ const Item = ({id,imagen, nombre, precio}) => (
             </Card.Text>
         </Card.Body>
         <div className="card-footer">
-        <Link to={`/product/${id}`}><button>Ver Detalles</button></Link>
+        <Link to={`/producto/${id}`}><button>Ver Detalles</button></Link>
         </div>
 
     </Card>
 )
 
 export default Item;
-
-// const handleClick = (total) => {
-//     alert(`La cantidad agregada es ${total}`)
-//     }
-// <ItemCount stock={8} initial={1} onAdd={handleClick} />
