@@ -14,8 +14,8 @@ function App() {
   
   const links = [
     { href: "/productos", name: "productos", id: 1 },
-    { href: "/categoria/electronics", name: "electronics", id: 2 },
-    { href: "/categoria/jewelery", name: "jewelery", id: 3 }
+    { href: "/categoria/Patillera", name: "patillera", id: 2 },
+    { href: "/categoria/Clipper", name: "clipper", id: 3 }
 ]
 
   return (

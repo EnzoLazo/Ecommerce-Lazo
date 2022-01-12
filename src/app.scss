@@ -27,7 +27,7 @@
 }
  */
 
-$main-color: yellow;
+$main-color: blue;
 
 * {
   padding: 0;
@@ -84,11 +84,7 @@ main {
   padding: 1rem;
 }
 
-footer {
-  background-color: yellow;
-  padding: 0.5rem 0;
-  text-align: center;
-}
+
 
 #item-container {
   display: flex;

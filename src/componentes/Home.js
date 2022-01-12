@@ -66,12 +66,12 @@ const Home = () => {
     return (
         <div>
             Soy Home  
-            <a href="http://google.com" onClick={hacerClickSinDefault}>ir a google</a>
+            {/* <a href="http://google.com" onClick={hacerClickSinDefault}>ir a google</a>
             <input type="text" onChange={hacerChange} />
             <button id="boton" onClick={hacerClick}>click</button>
             <UsuariosList usuarios={usuarios} manejarBorrar={manejarBorrar}/>
-            {/* <form onSubmit={prevenirSubmit}> */}
-            {/* </form> */}
+            <form onSubmit={prevenirSubmit}>
+            </form> */}
         </div>
     )
 }
